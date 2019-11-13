@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.background1 {
+    background: linear-gradient(269deg, #c0fff7, #095f14, #5f1d09, #ea6990, #82ff2d, #ffd52d, #ee5a52, #00d0db, #db00c9, #95bb83, #2134cc);
+    background-size: 1800% 1800%;
+    animation: background1 23s infinite alternate;
+}
+
+@keyframes background1 {
+    0% {
+        background-position: 0% 52%
+    }
+
+    50% {
+        background-position: 100% 49%
+    }
+
+    100% {
+        background-position: 0% 52%
+    }
+}
+
+.background2 {
+    background: linear-gradient(270deg, #ffd013, #c6ff17, #60ff17, #17ff2a, #17ff9b, #17ff9b, #17fff7, #1797ff, #174fff, #4f17ff, #9717ff, #df17ff);
+    background-size: 2400% 2400%;
+
+    animation: background2 10s infinite alternate-reverse;
+}
+
+@keyframes background2 {
+    0% {
+        background-position: 0% 50%
+    }
+
+    50% {
+        background-position: 100% 50%
+    }
+
+    100% {
+        background-position: 0% 50%
+    }
+}
+
+.background3 {
+    background: linear-gradient(270deg, #fffa1b, #7ed28d, #7e8fd2, #d27eb5, #d27e85, #ea8060, #98a11a, #1aa155, #21eae3);
+    background-size: 1800% 1800%;
+
+    animation: background3 23s ease infinite;
+}
+
+    @keyframes background3 {
+        0% {
+            background-position: 19% 0%
+        }
+
+        50% {
+            background-position: 82% 100%
+        }
+
+        100% {
+            background-position: 19% 0%
+        }
+    }
+
+.background {
+    max-width: 100%;
+    height: 100vh;
+}
+
+.inputColor {
+    padding-top: 25vh;
+    text-align: center;
+}
+
+button {
+    width: 9vh;
+    height: 9vh;
+    opacity: 30%;
+}
+
+.selected {
+    opacity: 60%;
+}
