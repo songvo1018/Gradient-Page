@@ -24,3 +24,13 @@ function bckg3() {
 }
 
 document.getElementById('activate3').addEventListener('click', bckg3);
+
+function stop() {
+    document.getElementById("bckg").classList.remove('background1');
+    document.getElementById("bckg").classList.remove('background2');
+    document.getElementById("bckg").classList.remove('background3');
+
+
+}
+
+document.getElementById('stop').addEventListener('click', stop);
